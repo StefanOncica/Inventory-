@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "name": "Name",
+      "type": "text"
+    },
+    {
+      "name": "Surname",
+      "type": "text"
+    }
+  ],
+  "items": [
+    {
+      "Name": "Ben",
+      "Surname": "Durst"
+    },
+    {
+      "Name": "Derek",
+      "Surname": "Solan"
+    }
+  ]
+}

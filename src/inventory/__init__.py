@@ -1,2 +1,8 @@
+from inventory.cli import run
+
+
 def main() -> None:
-    print("Hello from inventory!")
+    try:
+        run()
+    except (KeyboardInterrupt, EOFError):
+        print("\nBye!")
